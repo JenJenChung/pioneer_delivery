@@ -52,18 +52,18 @@ void delivery::waypointCallback(const move_base_msgs::MoveBaseActionResult& msg)
   }
   
   int newWP = currentWP ;
-  
+
   while (newWP == currentWP)
     newWP = rand() % totalWP ;
-  
+
   currentWP = newWP ;
-    
+  
   waypoint.linear.x = allWaypoints[currentWP][0] ;
   waypoint.linear.y = allWaypoints[currentWP][1] ;
   waypoint.linear.z = 0 ;
   waypoint.angular.x = 0 ;
   waypoint.angular.y = 0 ;
   waypoint.angular.z = 0 ;
-  ROS_INFO_STREAM("Sending new waypoint ("<< waypoint.linear.x << "," << waypoint.linear.y << ")") ;
+  //ROS_INFO_STREAM("Sending new waypoint ("<< waypoint.linear.x << "," << waypoint.linear.y << ")") ;
   pubWaypoint.publish(waypoint) ;
 }
