@@ -1,0 +1,64 @@
+pioneer1:
+  num_wps: 2
+  v0:
+    x: 0.0
+    y: 0.0
+  v1:
+    x: 17.0
+    y: -17.0
+pioneer2:
+  num_wps: 2
+  v0:
+    x: 20.0
+    y: -20.0
+  v1:
+    x: 3.0
+    y: -3.0
+pioneer3:
+  num_wps: 2
+  v0:
+    x: 0.0
+    y: -2.0
+  v1:
+    x: 17.0
+    y: -19.0
+pioneer4:
+  num_wps: 2
+  v0:
+    x: 20.0
+    y: -18.0
+  v1:
+    x: 3.0
+    y: -1.0
+pioneer5:
+  num_wps: 2
+  v0:
+    x: 2.0
+    y: 0.0
+  v1:
+    x: 19.0
+    y: -17.0
+pioneer6:
+  num_wps: 2
+  v0:
+    x: 18.0
+    y: -20.0
+  v1:
+    x: 1.0
+    y: -3.0
+pioneer7:
+  num_wps: 2
+  v0:
+    x: 2.0
+    y: -2.0
+  v1:
+    x: 19.0
+    y: -19.0
+pioneer8:
+  num_wps: 2
+  v0:
+    x: 18.0
+    y: -18.0
+  v1:
+    x: 1.0
+    y: -1.0
