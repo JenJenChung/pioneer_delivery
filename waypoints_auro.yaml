@@ -4,16 +4,16 @@ pioneer1:
     x: 0.0
     y: 0.0
   v1:
-    x: 17.0
-    y: -17.0
+    x: 20.0
+    y: -20.0
 pioneer5:
   num_wps: 2
   v0:
     x: 21.0
     y: -21.0
   v1:
-    x: 4.0
-    y: -4.0
+    x: 1.0
+    y: -1.0
 pioneer2:
   num_wps: 2
   v0:
@@ -52,16 +52,16 @@ pioneer4:
     x: 3.0
     y: -3.0
   v1:
-    x: 20.0
-    y: -20.0
+    x: 17.0
+    y: -17.0
 pioneer8:
   num_wps: 2
   v0:
     x: 18.0
     y: -18.0
   v1:
-    x: 1.0
-    y: -1.0
+    x: 4.0
+    y: -4.0
     
 #pioneer1:
 #  num_wps: 2
